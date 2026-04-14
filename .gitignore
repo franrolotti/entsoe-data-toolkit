@@ -1,5 +1,6 @@
 .env
 .venv/
+*.egg-info/
 __pycache__/
 *.pyc
 .DS_Store
@@ -13,4 +14,3 @@ outputs/tables/*
 !data/processed/.gitkeep
 !outputs/plots/.gitkeep
 !outputs/tables/.gitkeep
-
