@@ -1,0 +1,20 @@
+[project]
+name = "entsoe-data-toolkit"
+version = "0.1.0"
+description = "Download, process, and plot ENTSO-E data."
+requires-python = ">=3.10"
+dependencies = [
+    "entsoe-py",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "python-dotenv",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

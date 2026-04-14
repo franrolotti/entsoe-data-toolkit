@@ -1,0 +1,16 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/raw/*
+data/interim/*
+data/processed/*
+outputs/plots/*
+outputs/tables/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!outputs/plots/.gitkeep
+!outputs/tables/.gitkeep
+
